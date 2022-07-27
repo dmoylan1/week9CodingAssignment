@@ -7,11 +7,13 @@
     <title>Week 9 Coding Assignment</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body class="container">
+<body class="container mb-5">
 
     <!-- Header -->
     <div class="container">
-        <img src="images/Moylan_design.png">
+        <a href="index.html">
+            <img src="images/Moylan_design.png">
+        </a>
     </div>
 
     <!-- Navigation Bar -->
@@ -39,13 +41,26 @@
     <!-- Page content -->
 
     <main class="container">
-        <div class="row">
-            <div class="col-lg">
                 <h2 style="text-align: center;">
                     Contact Me
                 </h2>
-            </div>
-        </div>
+                <form class="mx-5">
+                    <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName1">
+                      </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputMessage1" class="form-label">Message</label>
+                      <textarea class="form-control" id="exampleInputMessage1" rows="3">
+                      </textarea>   
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
     </main>
     <footer class="container fixed-bottom" style="background-color: #ab285a; color: white; text-align: center; font-size: small; padding-bottom: 5px; padding-top: 5px;">
         MoylanDesign &bull; Danielle Moylan &bull; 123 Main Street, Keene, NH &bull; 603-355-5555 &bull; dmmoylan@sau29.org
